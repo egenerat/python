@@ -8,6 +8,6 @@ for i in elements:
 elements = [i for i in [1, 2, 3]]
 
 for i in elements:
-	print("Array (first): {}".format(i))
+	print("List comprehension (first): {}".format(i))
 for i in elements:
-	print("Array (second): {}".format(i))
+	print("List comprehension (second): {}".format(i))
