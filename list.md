@@ -1,3 +1,9 @@
+remove()
+```
+list.remove('value')
+```
+returns the first matching
+
 Count the number of occurrences in a list
 Instead of checking if the key is in the dictionary, then increment
 ```
