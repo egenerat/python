@@ -1,3 +1,4 @@
+# Random notes
 ## Package
 Upgrade a pip package
 ```pip install Django --upgrade```
@@ -10,3 +11,9 @@ The limit can be increased via
 ```
 sys.setrecursionlimit(3000)
 ```
+
+## Print without carriage return
+```
+print("message", end=" ")
+```
+Will use a space instead of a carriage return at the end of the message
