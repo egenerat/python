@@ -4,7 +4,7 @@ list.remove('value')
 ```
 returns the first matching
 
-Iterate over key and values
+Iterate over indexes and values
 ```
 for idx, val in enumerate(lst):
     print(f"{idx} {val}")
