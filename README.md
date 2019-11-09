@@ -1,4 +1,11 @@
 # Random notes
+
+## Virtual environnments
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ## Package
 Upgrade a pip package
 ```pip install Django --upgrade```
