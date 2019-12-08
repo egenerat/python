@@ -6,6 +6,16 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Jupyter
+
+[Documentation on jupyter.org](https://jupyter.org/index.html)
+```
+pip install jupyterlab
+jupyter notebook
+```
+
+`Shift + Enter` to run a command
+
 ## Package
 Upgrade a pip package
 ```pip install Django --upgrade```
