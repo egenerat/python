@@ -6,6 +6,11 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Run a simple web server
+```
+python3 -m http.server
+```
+
 ## Jupyter
 
 [Documentation on jupyter.org](https://jupyter.org/index.html)
