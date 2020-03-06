@@ -6,6 +6,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Shebang
+```
+#!/usr/bin/env python3
+```
+To be replaced with python2 if needed
+
 ## Run a simple web server
 ```
 python3 -m http.server
