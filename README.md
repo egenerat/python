@@ -45,3 +45,13 @@ sys.setrecursionlimit(3000)
 print("message", end=" ")
 ```
 Will use a space instead of a carriage return at the end of the message
+
+
+# Code linting
+
+## Pyflakes
+https://pypi.org/project/pyflakes/
+```
+pip install pyflakes
+pyflakes file.py
+```
