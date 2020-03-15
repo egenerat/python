@@ -55,3 +55,9 @@ https://pypi.org/project/pyflakes/
 pip install pyflakes
 pyflakes file.py
 ```
+
+## 2to3: Automated Python 2 to 3 code translation 
+https://docs.python.org/2/library/2to3.html
+```
+2to3 -w file.py
+```
