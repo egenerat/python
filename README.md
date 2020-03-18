@@ -56,6 +56,11 @@ pip install pyflakes
 pyflakes file.py
 ```
 
+Unused imports
+```
+pyflakes app/**/*.py | grep "imported but unused"
+```
+
 ## 2to3: Automated Python 2 to 3 code translation 
 https://docs.python.org/2/library/2to3.html
 ```
