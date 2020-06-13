@@ -4,12 +4,27 @@ Find position of character
 2
 ```
 
+Left align
+```
+>>> "abc".ljust(5, '-')
+'abc--'
+```
+Same with `rjust`
+
+Specific case fill with zeros
 ```
 >>> "1".zfill(3)
-001
+'001'
 ```
 
 ```
 >>> "ABC".title()
-Abc
+'Abc'
 ```
+
+```
+>>> "1".isnumeric()
+True
+```
+
+Also works with `isalpha` and `isspace`
