@@ -10,3 +10,18 @@ Factorial
 >>> math.factorial(4)
 24
 ```
+
+
+Integer to binary
+```
+>>> "{0:b}".format(18)
+'10010'
+>>> bin(18)
+'0b10010'
+```
+
+Binary to integer
+```
+>>> int('10010', 2)
+18
+```
