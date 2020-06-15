@@ -28,3 +28,4 @@ True
 ```
 
 Also works with `isalpha` and `isspace`
+Format: `islower`, `isupper`
