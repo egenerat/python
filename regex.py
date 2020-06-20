@@ -27,3 +27,9 @@ print(p_ignore_case.search(' Hello'))
 string1 = 'to Alice and Bob from'
 print(re.search('to .* from', string1))
 # match
+
+
+```
+>>> re.findall("(\d+)", "07 23 32 32")
+['07', '23', '32', '32']
+```
