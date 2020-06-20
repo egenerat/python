@@ -27,5 +27,11 @@ Specific case fill with zeros
 True
 ```
 
-Also works with `isalpha` and `isspace`
+Also works with `isalnum`, `isalpha` and `isspace`
 Format: `islower`, `isupper`
+
+To change one character in a string (immutable), convert to list first
+```
+>>> list("abcd")
+['a', 'b', 'c', 'd']
+```
