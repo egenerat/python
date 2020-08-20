@@ -24,3 +24,20 @@ We can use setdefault method
 ```
 available.setdefault(key, value)
 ```
+
+Sort on a function
+```
+sorted(lst, key=abs)
+```
+
+Sort tuples by second field
+```
+d.sort(key=lambda x: x[1])
+```
+
+Sort list on different fields
+```
+s = sorted(l, key=lambda x: (x[1], x[3], x[2]))
+```
+
+Reverse sort: `reverse=True` (available on `sorted()` and `.sort()`)
