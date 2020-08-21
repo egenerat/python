@@ -33,3 +33,23 @@ print(re.search('to .* from', string1))
 >>> re.findall("(\d+)", "07 23 32 32")
 ['07', '23', '32', '32']
 ```
+
+```
+>>> re.search("[123]","199")
+<re.Match object; span=(0, 1), match='1'>
+```
+
+Empty if no match
+```
+>>> re.search("[123]","999")
+```
+
+```
+>>> [m.start(0) for m in re.finditer("a", "abcabca")]
+[0, 3, 6]
+```
+
+```
+>>> re.sub("\s+", " ", "Good    morning")
+"Good morning"
+```
