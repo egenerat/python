@@ -35,3 +35,21 @@ To change one character in a string (immutable), convert to list first
 >>> list("abcd")
 ['a', 'b', 'c', 'd']
 ```
+
+
+Strip functions
+```
+>>> "  abc  ".strip()
+'abc'
+```
+
+Which is equivalent to strip(" ")
+
+Strip only on the left with `lstrip`, only on the right with `rstrip`
+
+
+Apply a function to all the characters in a string
+```
+>>> sum(map(int, list("123")))
+6
+```
