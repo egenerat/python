@@ -25,3 +25,9 @@ Binary to integer
 >>> int('10010', 2)
 18
 ```
+
+Greatest common divider
+```
+>>> math.gcd(12, 8)
+4
+```
