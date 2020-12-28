@@ -60,3 +60,9 @@ complex_dictionary = {
 }
 print(complex_dictionary.items())
 sorted(complex_dictionary.items(), key=lambda x:x[1])
+
+
+## Sort based on an alternative alphabet
+>>> alphabet = "aecfdb"
+>>> sorted(['ab','cd','ef'], key=lambda word: [alphabet.index(c) for c in word])
+['ab', 'ef', 'cd']
