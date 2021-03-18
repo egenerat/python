@@ -53,3 +53,21 @@ Apply a function to all the characters in a string
 >>> sum(map(int, list("123")))
 6
 ```
+
+Replace all
+```
+>>> "aaa _ bbb _ ccc".replace("_", "+")
+'aaa + bbb + ccc'
+```
+
+Replace one
+```
+>>> "aaa _ bbb _ ccc".replace("_", "+", 1)
+'aaa + bbb _ ccc'
+```
+
+Format amount
+```
+>>> "{:,}".format(1234567)
+1,234,567
+```
